@@ -36,6 +36,15 @@ body {
   width: 62px;
   height: 62px;
   margin-right: 62px;
+  
+}
+.logo1 {
+  transition: width 2s, height 2s, transform 2s;
+}
+.logo1:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
 }
 .site-menu,
 .contact-menu {
