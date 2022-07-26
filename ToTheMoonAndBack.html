@@ -8,233 +8,244 @@
     <title>To the moon and back - Сайт в разработке</title>
   </head>
   <body>
-    <header>
-      <div id="header">
-        <div id="logo"></div>
-        <nav>
-          <div id="menu1">
-            <a href="#" class="link">Компания</a>
-            <a href="#" class="link">Каталог</a>
-            <a href="#" class="link">Контакты</a>
-          </div>
+    <header class="site-header">
+      <div class="container">
+        <nav class="main-nav">
+          <a href="#" class="logo">
+            <img src="img/logo.png" alt="Space-Z" />
+          </a>
+          <ul class="site-menu">
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Компания</a></li>
+          </ul>
+          <ul class="contact-menu">
+            <li>
+              <a href="#" class="icon icon-mail">
+                <span class="hidden">Написать нам</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="icon icon-phone">
+                <span class="hidden">Позвонить нам</span>
+              </a>
+            </li>
+          </ul>
         </nav>
-        <div id="menu2">
-          <button type="mail-icon" class="block">
-            <a href="”mailto:XXX”" target="_blank">
-              <img src="../SpaceZ/img/mail-icon.png"
-            /></a>
-          </button>
-
-          <button type="phone-icon" class="block1">
-            <a href="tel:+79998887766" target="_blank"
-              ><img src="../SpaceZ/img/phone-icon.png"
-            /></a>
-          </button>
-        </div>
-      </div>
-      <div id="container">
-        <div id="left">
+        <section class="about-us">
           <h1>На Луну и обратно</h1>
           <p>
-            Космически крутой туризм. Пакетные и индивидуальные туры по лучшим
-            планетам галактики.
+            Космически крутой туризм.<br />
+            Пакетные и индивидуальные туры по лучшим планетам галактики.
           </p>
-        </div>
-        <div id="right"></div>
+          <a href="#" class="btn btn-yellow">Подбор тура</a>
+        </section>
       </div>
     </header>
     <main>
-      <div id="Advantage">
-        <div id="box">
-          <div id="advantage-icon-1"></div>
-          <p>Комфортабельные ракеты отечественного производства.</p>
-        </div>
-        <div id="box">
-          <div id="advantage-icon-2"></div>
-          <p>Вкусное и полезное космическое питание на борту.</p>
-        </div>
-        <div id="box">
-          <div id="advantage-icon-3"></div>
-          <p>Весь состав пилотов состоит из бывших космонавтов.</p>
-        </div>
-        <div id="box">
-          <div id="advantage-icon-4"></div>
-          <p>Экскурсии на луноходе на Море Ясности и Океан Бурь.</p>
-        </div>
-      </div>
-      <div id="Content">
-        <div id="Content1">
-          <div id="map"></div>
-          <div>
-            <h2>Не забудьте взять с собой:</h2>
-            <ui>
-              <li>
-                <span>
-                  Паспорт. Визовый режим пока не введен, но на границе будет
-                  досмотр.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Тяжелые ботинки. Пригодятся вам в условиях низкой гравитации
-                  на Луне.
-                </span>
-              </li>
-              <li>
-                <span>
-                  Криптовалюта. Рекомендуем заранее обменять немного Лун-коинов,
-                  чтобы купить сувениры
-                </span>
-              </li>
-            </ui>
+      <section class="moon-vacation">
+        <div class="container column-container">
+          <div class="left-column">
+            <img src="img/map.jpg" alt="Карта путешествия" />
+          </div>
+          <div class="riht-column">
+            <p class="lead">
+              Надоело летать в отпуск за границу? Как насчет того, чтобы слетать
+              на Луну?
+            </p>
+            <p>
+              Устали от пакетных туров и пляжного отдыха? Полотенца и магнитики,
+              которые вы привозите из отпуска уже не радуют ваших близких? В
+              следующий раз привезите им настоящий лунный камень!
+            </p>
+            <p>
+              Мы предлагаем инновационную услугу на туристическом рынке —
+              космический туризм (пока только на Луну, сейчас решаем вопросы с
+              визовым центром Венеры).
+            </p>
+            <p>
+              Берите отпуск и отправляйтесь с нами в полет, он займет всего 72
+              часа!
+            </p>
           </div>
         </div>
-        <div id="Content1">
-          <h2>
-            Надоело летать в отпуск за границу? Как насчет того, чтобы слетать
-            на Луну?
-          </h2>
-          <p>
-            Устали от пакетных туров и пляжного отдыха? Полотенца и магнитики,
-            которые вы привозите из отпуска уже не радуют ваших близких? В
-            следующий раз привезите им настоящий лунный камень!<br /><br />Мы
-            предлагаем инновационную услугу на туристическом рынке — космический
-            туризм (пока только на Луну, сейчас решаем вопросы с визовым центром
-            Венеры).<br /><br />Берите отпуск и отправляйтесь с нами в полет, он
-            займет всего 72 часа!
-          </p>
-          <div>
-            <h2 class="h2">Это лучше оставить дома:</h2>
-            <ui>
+      </section>
+      <section class="recomendation">
+        <div class="container column-container">
+          <div class="left-column">
+            <h3>Не забудьте взять с собой:</h3>
+            <ul class="recomendatin-list">
               <li>
-                <span>
-                  Телефон. В космосе не ловит ваш любимый оператор и нет WI-FI.
-                </span>
+                <strong>Паспорт.</strong> Визовый режим пока не введен, но на
+                границе будет досмотр.
               </li>
               <li>
-                <span>
-                  Бутерброды. На борту будет питание, которое не разлетится по
-                  кабине в условиях невесомости.
-                </span>
+                <strong>Тяжелые ботинки.</strong> Пригодятся вам в условиях
+                низкой гравитации на Луне.
               </li>
               <li>
-                <span>
-                  Плавки/купальник. Море Ясности и Океан Бурь это большие
-                  кратеры. Без воды.
-                </span>
+                <strong>Криптовалюта.</strong>Рекомендуем заранее обменять
+                немного Лун-коинов, чтобы купить сувениры
               </li>
-            </ui>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>Это лучше оставить дома:</h3>
+            <ul class="recomendatin-list">
+              <li>
+                <strong>Телефон.</strong> В космосе не ловит ваш любимый
+                оператор и нет WI-FI.
+              </li>
+              <li>
+                <strong>Бутерброды.</strong>На борту будет питание, которое не
+                разлетится по кабине в условиях невесомости.
+              </li>
+              <li>
+                <strong>Плавки/купальник.</strong>Море Ясности и Океан Бурь это
+                большие кратеры. Без воды.
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div id="Form">
-        <div id="Content2">
-          <h2 class="h2" style="margin-top: 90px">
-            Готовы открыть для себя что-то новое?
-          </h2>
-          <p>
-            Отправьте заявку, заполнив форму справа, мы рассмотрим вашу
-            кандидатуру и свяжемся с вами в течении 24 часов.
-          </p>
-        </div>
-        <div id="Content3">
-          <div>
-            <form id="forma" action="#" method="GET">
-              <input
-                class="text-group"
-                type="text"
-                placeholder="ФИО"
-                required
-              /><br /><br />
-              <input
-                class="text-group"
-                type="text"
-                placeholder="Контактный телефон"
-                required
-              /><br /><br />
-              <div id="forma-group"">
-                <input
-                  id="form-group"
-                  class="form-group"
-                  type="text"
-                  placeholder="Рост"
-                  required
-                />
-                <input id="form-group" type="text" placeholder="Вес" required />
+      </section>
+      <section class="vacation-request">
+        <div class="container-column-container">
+          <h2 class="hidden">Заявка на тур</h2>
+          <div class="left-column">
+            <h3>Готовы открыть для себя что-то новое?</h3>
+            <p>
+              Отправьте заявку, заполнив форму справа, мы рассмотрим вашу
+              кандидатуру и свяжемся с вами в течении 24 часов.
+            </p>
+          </div>
+          <div class="right-column">
+            <form action="mailto:space@mail.start" class="vacation-reqest-form">
+              <div>
+                <label for="name" class="hidden">ФИО</label>
+                <input type="text" id="name" name="name" placeholder="ФИО" />
               </div>
-              <div id="form-group1">
-                <input type="checkbox" required checked />
-                <label for="checkbox"
+              <div>
+                <label for="phone" class="hidden">Контактный телефон</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Контактный телефон"
+                />
+              </div>
+              <div class="half-field">
+                <label for="height" class="hidden">Рост</label>
+                <input
+                  type="text"
+                  id="height"
+                  name="height"
+                  placeholder="Рост"
+                />
+              </div>
+              <div class="half-field">
+                <label for="weight" class="hidden">Вес</label>
+                <input
+                  type="text"
+                  id="weight"
+                  name="weight"
+                  placeholder="Вес"
+                />
+              </div>
+              <div>
+                <input type="checkbox" id="adreement" name="adreement" />
+                <label for="adreement"
                   >Согласен(а) наобработку персональных данных</label
                 >
               </div>
-              <input id="Rectangle2" type="submit" />
+              <div>
+                <button type="submit" class="btn btn-grey">Отправить</button>
+              </div>
             </form>
           </div>
         </div>
-      </div>
-      <div id="Table">
-        <div id="Table1">
-          <h2 class="h22">Готовы открыть для себя что-то новое?</h2>
-          <p class="pp">
-            Для вашего удобства мы разработали график полетов с вылетами из
-            Москвы и Санкт-Петербурга. Вы также можете запросить индивидуальный
-            полет.
-          </p>
-        </div>
-        <div id="Table2">
-          <table>
-            <tr>
-              <th>№ Рейса</th>
-              <th>Откуда-куда</th>
-              <th>Время вылета</th>
-              <th>Время прилета</th>
-            </tr>
-            <!--ряд с ячейками заголовков-->
-            <tr>
-              <td>1635</td>
-              <td>VKO-MOON</td>
-              <td>00:45</td>
-              <td>23:15</td>
-            </tr>
-            <!--ряд с ячейками тела таблицы-->
-            <tr>
-              <td>70200</td>
-              <td>LED-MOON</td>
-              <td>17:30</td>
-              <td>16:20</td>
-            </tr>
+      </section>
+      <section class="timetable">
+        <div class="container">
+          <div class="timetable-info">
+            <h2 class="Flight-schedule">Расписание полётов</h2>
+            <p class="Flight-schedule-description">
+              Для вашего удобства мы разработали график полетов с вылетами из
+              Москвы и Санкт-Петербурга. Вы также можете запросить
+              <a
+                href="#"
+                class="btn-grey"
+                target="_blank"
+                rel="noopener noreferrer"
+                >индивидуальный полет.
+              </a>
+            </p>
+          </div>
+          <table class="timetable-flights">
+            <thead>
+              <tr>
+                <th>№ Рейса</th>
+                <th>Откуда-куда</th>
+                <th>Время вылета</th>
+                <th>Время прилета</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1635</td>
+                <td>VKO-MOON</td>
+                <td>00:45</td>
+                <td>23:15</td>
+              </tr>
+              <tr>
+                <td>70200</td>
+                <td>LED-MOON</td>
+                <td>17:30</td>
+                <td>16:20</td>
+              </tr>
+            </tbody>
           </table>
         </div>
-      </div>
+      </section>
     </main>
-    <footer>
-      <div id="footer">
-        <div id="footer1">
-          <div id="foo">
-            <div id="logo1"></div>
-            <p class="logo">Space-Z</p>
+    <footer class="site-footer">
+      <div class="container-foter-columns-container">
+        <div class="left-column-footer">
+          <div class="logo-container">
+            <a href="#" class="logo"
+              ><img src="img/logo.png" alt="Space-Z"
+            /></a>
           </div>
-          <div>
-            <p class="ooo">ООО «Космос Зэ».<br />Все права защищены.</p>
-          </div>
+          <p class="copyrights">
+            ООО &laquo;Космос Зэ&raquo;. Все права защищены.
+          </p>
         </div>
-        <div id="footer2">
-          <div id="foo1">
-            <a href="#" class="aa">Компания</a>
-            <div class="border-line"></div>
-            <div id="block-menu"></div>
-          </div>
-          <div id="foo1">
-            <a href="#" class="aa">Каталог</a>
-            <div class="border-line"></div>
-            <div id="block-menu"></div>
-          </div>
-          <div id="foo1">
-            <a href="#" class="aa">Контакты</a>
-            <div class="border-line"></div>
-            <div id="block-menu"></div>
-          </div>
+        <div class="right-column-footer">
+          <ul class="footer-menu">
+            <li class="space-footer">
+              <a href="#" class="footer-submenu-title">КОМПАНИЯ</a>
+              <ul class="footer-submenu">
+                <li><a href="#" class="submenu">История</a></li>
+                <li><a href="#" class="submenu">Миссия</a></li>
+                <li><a href="#" class="submenu">Команда</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="footer-submenu-title">КАТАЛОГ</a>
+              <ul class="footer-submenu">
+                <li><a href="#" class="submenu">Полеты</a></li>
+                <li><a href="#" class="submenu">Проживание</a></li>
+                <li><a href="#" class="submenu">Экскурсии</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="footer-submenu-title">КОНТАКТЫ</a>
+              <ul class="footer-submenu">
+                <li><a href="#" class="submenu">Отправить заявку</a></li>
+                <li><a href="#" class="submenu">Схема проезда</a></li>
+                <li><a href="#" class="submenu">Время работы</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
