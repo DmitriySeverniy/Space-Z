@@ -39,7 +39,7 @@ body {
   
 }
 .logo1 {
-  transition: width 2s, height 2s, transform 2s;
+  transition: 2s;
 }
 .logo1:hover {
   width: 300px;
